@@ -1,0 +1,43 @@
+table, th, td {
+    font-family: 'Urbanist', calibri;
+    margin: auto;
+}
+div.foot {
+    display: flex;
+    align-items: center;
+}
+th {
+    text-align: left;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+}
+td {
+    font-size: 18px;
+}
+table a {
+    color: black;
+    text-decoration: none;
+}
+tr {
+    height: 50px;
+}
+div.sect2 {
+    background-image: linear-gradient(to bottom right, rgb(185, 85, 32), rgb(129, 31, 12));
+    height: 390px;
+    bottom: 0;
+    margin-top: 100px;
+    padding: 110px 0px 20px 0px;
+}
+.left {
+    padding-left: 30px;
+    padding-right: 120px;
+}
+.mid {
+    padding-right: 120px;
+}
+hr {
+    margin-top: 50px;
+    width: 800px;
+    padding-right: 30px;
+}

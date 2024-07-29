@@ -1,0 +1,46 @@
+body {
+    margin: auto;
+    padding: 0;
+    margin-right: 0;
+    background-color: #ffffff;
+}
+ul.topnav{
+    background-color: #ffffff;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    height: 60px;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(189, 189, 189, 0.2), 0 6px 20px 0 rgba(150, 150, 150, 0.19);
+}
+li a {
+    padding: 14px 30px;
+}
+nav a {
+    font-family: 'Urbanist';
+    display: block;
+    color: #000;
+    text-decoration: none;
+    font-size: 15px;
+    margin-top: 8px;
+    transition: background-color 0.2s, color 0.2s;
+}
+li a:hover {
+    background-color: rgb(204, 40, 34);
+    color: white;
+}
+li {
+    float: right;
+}
+a.name {
+    color: rgb(204, 40, 34);
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-left: 30px;
+    margin-top: 17px;
+    font-family: 'Oswald';
+}
